@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 15px;
+}
+
+#mainImg {
+    width: fit-content;
+    margin: 0 auto;
+    background-image: url("images/band.png");
+}
+
+#mainImgCaption {
+    color: white;
+    width: 1200px;
+    height: 600px;
+    text-align: center;
+    padding-top: 520px;
+    font-size: 10px;
+}
+
+#mainImgCaptionSpan {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#description {
+    width: 700px;
+    margin: 70px auto;
+    color: black;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+    letter-spacing: 5px;
+}
+
+#description div div{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+#description div img {
+    width: 150px;
+}
+
+#description p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+#description p span {
+    display: block;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+    margin: 20px;
+}
+
+#description div span {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#description div {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#tours {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 250px;
+    background-color: black;
+    color: white;
+}
+
+#tours > p {
+    display: block;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+#calendar {
+    color: black;
+    background-color: white;
+    font-size: 10px;
+}
+
+#calendar p {
+    display: inline;
+}
+
+#calendar div {
+    width: 100%;
+    border: 1px solid #F5F5F5;
+    padding: 5px;
+}
+
+#soldOut {
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
+#locations * {
+    display: block;
+}
+
+#locations div {
+    display: inline-block;
+    width: 230px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+#locations img {
+    width: 100%;
+}
+
+#locations div p {
+    font-size: 12px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#locations div span {
+    margin: 10px 0;
+}
+
+#locations div .date {
+    color: grey;
+    font-weight: normal;
+}
+
+#locations div .button {
+    margin: 10px
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px;
+}
+
+#contact {
+    width: fit-content;
+    margin: 70px auto;
+}
+
+#heading {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#heading p {
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-style: italic;
+    color: grey;
+}
+
+#contactInfo {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+form {
+    display: inline-block;
+}
+
+#contactInfo ul * {
+    display: block;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#name {
+    display: inline-block;
+}
+
+#email {
+    display: inline-block;
+}
+
+#message {
+    display: block;
+    width: 100%;
+}
+
+form {
+    margin: 5px;
+}
+
+form * {
+    margin: 3px;
+    padding: 10px;
+}
+
+footer img {
+    width: 100%;
+}
+
+#footnote {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: grey;
+
+}
+
+#footnote span {
+    text-decoration: underline;
+}
